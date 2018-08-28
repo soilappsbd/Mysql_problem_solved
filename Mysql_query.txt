@@ -1,0 +1,4 @@
+
+// Select Where claus for Comma separated data  (1,2,3,4) etc in column as String
+
+SELECT * FROM `ads_post` WHERE find_in_set('2', cast(city_id as char))
